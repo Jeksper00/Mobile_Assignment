@@ -7,15 +7,11 @@ import androidx.fragment.app.Fragment
 //import androidx.navigation.ui.AppBarConfiguration
 //import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
 //import androidx.navigation.ui.setupWithNavController
-import com.example.assignment_donation.fragments.FavouritesFragment
-import com.example.assignment_donation.fragments.HomeFragment
-import com.example.assignment_donation.fragments.ProfileFragment
-import com.example.assignment_donation.fragments.SettingsFragment
+import com.example.assignment_donation.DonorFragments.FavouritesFragment
+import com.example.assignment_donation.DonorFragments.HomeFragment
+import com.example.assignment_donation.DonorFragments.ProfileFragment
+import com.example.assignment_donation.DonorFragments.SettingsFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.internal.NavigationMenu
-import com.google.android.material.internal.NavigationMenuItemView
-import com.google.android.material.navigation.NavigationBarMenu
-import com.google.android.material.navigation.NavigationBarMenuView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
